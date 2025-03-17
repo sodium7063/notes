@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Login_UI</class>
+ <widget class="QMainWindow" name="Login_UI">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -46,7 +46,7 @@
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="userNameLineEdit">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -62,7 +62,7 @@
      <string>请输入用户名</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="passwordLineEdit">
     <property name="geometry">
      <rect>
       <x>120</x>
