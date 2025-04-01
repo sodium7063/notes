@@ -17,11 +17,11 @@
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLCDNumber" name="Caculator">
+      <widget class="QLineEdit" name="lineEdit">
        <property name="minimumSize">
         <size>
          <width>0</width>
-         <height>100</height>
+         <height>80</height>
         </size>
        </property>
       </widget>
